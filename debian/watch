@@ -1,3 +1,2 @@
 version=3
-http://pypi.python.org/packages/source/X/XStatic-roboto-fontface XStatic-roboto-fontface-(.*).tar.gz
-
+http://pypi.debian.net/XStatic-roboto-fontface/XStatic-roboto-fontface-(.*).tar.gz
