@@ -18,7 +18,7 @@ Homepage: https://github.com/choffmeister/roboto-fontface-bower
 
 Package: python-xstatic-roboto-fontface
 Architecture: all
-Depends: fonts-roboto-fontface,
+Depends: fonts-roboto-fontface (>= 0.4.3),
          python-xstatic,
          ${misc:Depends},
          ${python:Depends},
@@ -34,7 +34,7 @@ Description: Roboto Fontface XStatic support - Python 2.7
 
 Package: python3-xstatic-roboto-fontface
 Architecture: all
-Depends: fonts-roboto-fontface,
+Depends: fonts-roboto-fontface (>= 0.4.3),
          python3-xstatic,
          ${misc:Depends},
          ${python3:Depends},
