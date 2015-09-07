@@ -1,0 +1,5 @@
+python-xstatic-roboto-fontface (0.4.3.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 03 Sep 2015 14:15:17 +0200

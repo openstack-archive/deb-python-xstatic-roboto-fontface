@@ -1,0 +1,41 @@
+Source: python-xstatic-roboto-fontface
+Section: python
+Priority: optional
+Maintainer: PKG OpenStack <openstack-devel@lists.alioth.debian.org>
+Uploaders: Thomas Goirand <zigo@debian.org>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-setuptools,
+               python-all,
+               python3-setuptools,
+               python3-all
+Standards-Version: 3.9.6
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=openstack/python-xstatic-roboto-fontface.git
+Vcs-Git: git://anonscm.debian.org/openstack/python-xstatic-roboto-fontface.git
+Homepage: https://github.com/choffmeister/roboto-fontface-bower
+
+Package: python-xstatic-roboto-fontface
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Roboto Fontface XStatic support - Python 2.7
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 2.7 module support for the Roboto Fontface.
+ See the description of the fonts-roboto-fontface package.
+
+Package: python3-xstatic-roboto-fontface
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Roboto Fontface XStatic support - Python 3.x
+ XStatic is a Python web development tool for handling required static data
+ files from external projects, such as CSS, images, and JavaScript. It provides
+ a lightweight infrastructure to manage them via Python modules that your app
+ can depend on in a portable, virtualenv-friendly way instead of using embedded
+ copies.
+ .
+ This package contains the Python 3.x module support for the Roboto Fontface.
+ See the description of the fonts-roboto-fontface package.
