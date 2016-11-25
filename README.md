@@ -1,3 +1,10 @@
+Team and repository tags
+========================
+
+[![Team and repository tags](http://governance.openstack.org/badges/deb-python-xstatic-roboto-fontface.svg)](http://governance.openstack.org/reference/tags/index.html)
+
+<!-- Change things from this point on -->
+
 # Roboto fontface
 
 A simple package providing the [Roboto](http://www.google.com/fonts/specimen/Roboto) fontface. The font was created by [Christian Robertson](https://plus.google.com/110879635926653430880/about).
